@@ -1,7 +1,7 @@
 name: Publish Air Space from Excel
 on:
   push:
-    branches: [main]
+    branches: [main, master]
   workflow_dispatch:
 permissions:
   contents: read

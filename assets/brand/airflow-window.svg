@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" fill="none">
+<title>Shared air — conceptual animated artwork</title>
+<defs><linearGradient id="air-panel" x2="1" y2="1"><stop stop-color="#194d47"/><stop offset="1" stop-color="#092e2b"/></linearGradient><linearGradient id="air-light"><stop stop-color="#9ae3c5"/><stop offset=".5" stop-color="#e2f9a9"/><stop offset="1" stop-color="#72c6c0"/></linearGradient></defs>
+<rect width="640" height="560" rx="6" fill="url(#air-panel)"/>
+<g stroke="#79aa96" opacity=".22"><path d="M420 85 590 185v288H420z"/><path d="m420 85-140 89v299h140"/><path d="M280 174 420 272l170-87"/><path d="M420 272v201"/><path d="M475 270v130l65 0V235"/></g>
+<path d="M320 474V273a66 66 0 0 1 132 0v201" stroke="#d2ebc0" stroke-width="2" opacity=".65"/>
+<g class="air-base" stroke="url(#air-light)" stroke-width="1.4" opacity=".5">
+<path d="M-40 130C120 90 160 190 250 226S390 335 450 300 560 130 690 175"/>
+<path d="M-40 157C120 117 160 217 250 253S390 362 450 327 560 157 690 202"/>
+<path d="M-40 184C120 144 160 244 250 280S390 389 450 354 560 184 690 229"/>
+<path d="M-40 211C120 171 160 271 250 307S390 416 450 381 560 211 690 256"/>
+<path d="M-40 238C120 198 160 298 250 334S390 443 450 408 560 238 690 283"/>
+<path d="M-40 265C120 225 160 325 250 361S390 470 450 435 560 265 690 310"/>
+</g>
+<g stroke="url(#air-light)" stroke-linecap="round" stroke-width="3.6" class="air-current">
+<path class="air-travel air-speed-one" d="M-40 130C120 90 160 190 250 226S390 335 450 300 560 130 690 175"/>
+<path class="air-travel air-speed-two" d="M-40 157C120 117 160 217 250 253S390 362 450 327 560 157 690 202"/>
+<path class="air-travel air-speed-three" d="M-40 184C120 144 160 244 250 280S390 389 450 354 560 184 690 229"/>
+<path class="air-travel air-speed-two" d="M-40 211C120 171 160 271 250 307S390 416 450 381 560 211 690 256"/>
+<path class="air-travel air-speed-three" d="M-40 238C120 198 160 298 250 334S390 443 450 408 560 238 690 283"/>
+<path class="air-travel air-speed-one" d="M-40 265C120 225 160 325 250 361S390 470 450 435 560 265 690 310"/>
+</g>
+<g fill="#ddf5ab"><circle cx="134" cy="392" r="3"/><circle cx="205" cy="110" r="2"/><circle cx="546" cy="110" r="3"/></g>
+<style>
+.air-travel{stroke-dasharray:32 170;animation:air-travel 7s linear infinite}
+.air-speed-two{animation-duration:9s;animation-delay:-3s;stroke-dasharray:14 185}
+.air-speed-three{animation-duration:8s;animation-delay:-5s;stroke-dasharray:3 145;stroke-width:5}
+@keyframes air-travel{to{stroke-dashoffset:-808}}
+@media(prefers-reduced-motion:reduce){.air-travel{animation:none}}
+</style>
+</svg>

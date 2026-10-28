@@ -1,0 +1,2 @@
+合作单位标志命名为 partner-01.png、partner-02.png，以此类推。
+推荐透明底。Excel Partners 的标志列填写 assets/partners/partner-01.png。

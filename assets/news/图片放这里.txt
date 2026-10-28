@@ -1,0 +1,2 @@
+新闻图片命名为 news-01.jpg、news-02.jpg、news-03.jpg，以此类推。
+推荐 1200×800。Excel News 的图片列填写 assets/news/news-01.jpg。

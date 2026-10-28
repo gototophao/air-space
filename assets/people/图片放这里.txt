@@ -1,0 +1,9 @@
+成员头像命名为 person-01.jpg、person-02.jpg、person-03.jpg，以此类推。
+推荐 1200×800 横向头像。Excel People 的照片列填写 assets/people/person-01.jpg。
+People 页上方的团队照片命名为 team.jpg，推荐 1600×1067；路径为 assets/people/team.jpg。
+People 表 G 列填写单位，H 列选 Leadership Team 或 Researchers，发布列选 Yes 后出现在相应分组。
+
+已加入的正式成员照片：
+Hao Zhang：hao-zhang.jpg（来自项目根目录 Hao_Zhang.jpg）
+Prof. Sophie Woodward：sophie-woodward.png（来自本次上传的照片）
+二人的资料保存在 Excel People 表，网页个人 ID 分别为 hao-zhang 和 sophie-woodward。

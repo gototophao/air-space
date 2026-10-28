@@ -1,0 +1,7 @@
+Air Space 标志设计
+方式：内置 image_gen 图片生成工具；透明 PNG。
+概念：空气流线穿过家居门廊，与城市建筑形成连通图形。
+配色：深青色与黄绿色。无文字，网站名称单独用网页文字显示。
+
+完整生成提示词：
+Use case: logo-brand. Create a polished flat vector-like symbol only, no text or lettering, transparent background. For Air Space, an interdisciplinary research project about measuring indoor and outdoor air quality in real homes and communities in Greater Manchester. A distinctive compact circular/open-square mark combines three smooth flowing air ribbons passing through a minimal architectural doorway, suggesting shared air between home and city. Deep ink teal #103f43 with bright chartreuse #d5ed68 accent. Very simple bold geometry, exceptionally crisp clean edges, balanced negative space, readable at 48 pixels, professional UK university research project identity. One centered symbol only, generous transparent padding. No mockup, no shadows, no gradients, no globe, no rocket, no airplane, no lungs, no text.

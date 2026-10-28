@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" fill="none">
+<title>Air Space — shared air</title>
+<style>
+.flow-contour{stroke:#a8b99e;stroke-width:1;opacity:.6}
+.flow-trace{stroke:#688d75;stroke-width:1.4;stroke-dasharray:6 15;opacity:.6;animation:airflow-drift 26s linear infinite}
+.flow-trace.clay{stroke:#b17a55;animation-duration:35s;opacity:.4}
+@keyframes airflow-drift{to{stroke-dashoffset:-420}}
+@media(prefers-reduced-motion:reduce){.flow-trace{animation:none}}
+</style>
+<path class="flow-contour" d="M-80 680C140 680 80 230 340 230S580 720 840 430 1020 120 1110 80"/>
+<path class="flow-contour" d="M-80 660C120 660 70 208 340 208S590 696 827 414 1000 110 1110 60"/>
+<path class="flow-contour" d="M-80 640C100 640 60 186 340 186S600 672 814 398 980 100 1110 40"/>
+<path class="flow-trace" d="M-80 670C130 670 75 219 340 219S585 708 833 422 1010 115 1110 70"/>
+<path class="flow-trace clay" d="M-80 650C110 650 65 197 340 197S595 684 820 406 990 105 1110 50"/>
+</svg>

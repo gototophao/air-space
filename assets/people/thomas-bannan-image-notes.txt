@@ -1,0 +1,7 @@
+照片清晰度优化：内置 image_gen 图片编辑工具。
+原始图：thomas-bannan-original.png
+网页使用：thomas-bannan.png
+用途：放大低分辨率人像、减少压缩痕迹、轻度提升清晰度；保留原人物、衣服和实验室背景。AI 优化不能恢复原照片未记录的真实细节。原图独立保留。
+
+完整提示词：
+Edit this exact photograph for a university research team website. Faithfully restore and upscale the existing low-resolution portrait, gently reduce compression artifacts, improve natural edge clarity and facial detail only to the extent supported by the source. Preserve this man's exact identity, age, expression, face shape, hairstyle, beard, skin tone, black sweater, seated pose, body proportions, crop, and laboratory background. Do not beautify, restyle, replace clothing or background, change lighting, add objects or text. Natural realistic photographic result; no artificial plastic skin, no dramatic sharpening, no invented features. Deliver one portrait with the same composition and aspect ratio.

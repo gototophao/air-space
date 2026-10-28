@@ -87,7 +87,7 @@ motionPreference.addEventListener('change',()=>{
  button.querySelector('.motion-icon').textContent=motionPaused?'▷':'Ⅱ';button.querySelector('.motion-label').textContent=motionPaused?'Play animation':'Pause animation';
 });
 document.querySelector('#brand-name').textContent=c.name;
-if(safeURL(c.logo))document.querySelector('#brand-icon').innerHTML=`<img src="${safeURL(c.logo)}" alt="">`;
+if(safeURL(c.logo))document.querySelector('#brand-icon').innerHTML=`<img src="${safeURL(c.logo)}?v=20261028-logo2" alt="">`;
 document.querySelector('.footer-brand').firstChild.textContent=c.name;
 document.querySelector('#affiliation').textContent=c.affiliation;
 document.querySelector('#copyright-name').textContent=c.name;

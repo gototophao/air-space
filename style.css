@@ -408,3 +408,12 @@ footer{padding-block:35px}footer p,footer>a:last-child{font-size:13px}
 @media(max-width:800px){.cinematic-hero{min-height:690px}.cinematic-hero h1{font-size:64px;max-width:650px}.cinema-content{padding-block:95px 140px}.cinema-intro{max-width:500px}.cinema-bottom{bottom:25px}.cinema-location{font-size:11px;gap:9px}.cinema-controls{gap:15px}.cinema-credit{font-size:10px}.cinema-image{object-position:68% 50%}}
 @media(max-width:550px){.cinematic-hero{min-height:740px;align-items:center}.cinema-image{object-position:72% 50%;transform-origin:74% 50%}.cinema-shade{background:linear-gradient(90deg,#0a211b9c,#0a211b24),linear-gradient(0deg,#071a15e0 0%,#071a1599 32%,#071a1547 65%,#071a1526 100%)}.cinema-content{padding:75px 0 150px}.cinema-content>.eyebrow{font-size:10px;letter-spacing:1px;max-width:310px;gap:9px;margin-bottom:25px;align-items:flex-start}.cinema-content .project-dot{margin-top:6px}.cinematic-hero h1{font-size:47px;line-height:1.06;letter-spacing:-1.9px;max-width:390px;margin:0 0 25px}.cinema-intro{font-size:17px;line-height:1.7;margin-bottom:28px;max-width:350px}.cinema-content .hero-action-row{gap:23px}.cinema-button{font-size:14px;padding:15px 17px;gap:22px}.cinema-team{font-size:14px;gap:14px}.cinema-bottom{align-items:flex-start;flex-direction:column;gap:18px;bottom:23px}.cinema-location{font-size:10px;letter-spacing:.1px;gap:9px;flex-wrap:wrap}.cinema-controls{width:100%;justify-content:space-between;flex-direction:row-reverse}.cinematic-hero .motion-toggle{font-size:11px;padding:8px 12px}.cinema-credit{font-size:10px}}
 @media(prefers-reduced-motion:reduce){.cinema-image,.cinema-light{animation:none!important}.cinema-particles{display:none}.cinema-button{transition:none}}
+
+/* The supplied lockup contains its own project name and strapline. */
+.header-inner{padding-block:12px}
+.brand-full-logo{gap:0}
+.brand-full-logo #brand-name{display:none}
+.brand-full-logo .brand-icon{width:166px;height:117px;overflow:hidden}
+.brand-full-logo .brand-icon img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 50%;transform:scale(1.08)}
+@media(max-width:800px){.header-inner{padding-block:10px}.brand-full-logo .brand-icon{width:139px;height:98px}}
+@media(max-width:400px){.brand-full-logo .brand-icon{width:128px;height:90px}}
